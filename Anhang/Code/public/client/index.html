@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Client Test</title>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="script.js"></script>
+        <style>
+            html,body
+            {
+                margin: 0px;
+                padding: 0px;
+            }
+            *{
+                font-family: "Arial";
+            }
+            #hidden-dom{
+                display: none;
+            }
+            pre,table
+            {
+                width: 90%;
+                margin: auto;
+            }
+            pre
+            {
+                background-color: #333;
+                color: #FFF;
+                border-radius: 5px;
+                padding: 5px;
+                word-break: break-all;
+                white-space: pre-wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <pre id="json-output"></pre>
+        <table id="results"></table>
+
+        <div id="hidden-dom"></div>
+    </body>
+</html>
